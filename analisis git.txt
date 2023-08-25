@@ -1,0 +1,59 @@
+Analisis Topik Git
+
+Group Inclusive Tour (GIT)
+
+Git merupakan version control system yang gratis dan bersifat open source. 
+Git memungkinkan para pengembang untuk bekerja secara bersama-sama pada proyek yang sama dan melacak setiap perubahan yang dilakukan pada source code. 
+
+catatan:
+Version Control System adalah sistem yang mengelola
+suatu perubahan pada file dokumen, source code, atau kumpulan
+informasi lainnya. VCS mencatat setiap perubahan pada file yang
+dikerjakan oleh seseorang. 
+
+Terdapat 2 sistem git, yaitu centralized dan distributed:
+1. Centralized
+   Git centralized berkerja hanya dengan menggunakan satu server yang berfungsi untuk menyimpan data dari project. 
+   Sistem git ini membutuhkan koneksi network untuk dapat mengakses data dari project. 
+   Selain itu, ketika terjadi sesuatu pada server seperti server corrupt, maka data project yang ada di dalam server akan berpotensi untuk hilang juga.
+2. Distributed
+   Git distributed bekerja dengan menyimpan data project di lokal dan juga di server. 
+   Sehingga lebih aman ketika terjadi sesuatu pada server seperti server corrupt karena sudah terdapat backup dari data project di lokal.
+
+Fitur-Fitur Git
+1. Version control
+   Git menyimpan setiap perubahan yang diubah pada source code, sehingga memungkinkan pengguna untuk memantau dan mengelola code version yang berbeda.
+2. Git Branch
+   Branch merupakan fitur yang paling sering digunakan dalam version control system. Branch digunakan ketika developer akan menambahkan fitur baru atau memperbaiki bug. Fungsi utama dari branch ialah agar pada saat penambahan fitur baru tidak mengganggu source code utama. Ketika pengerjaan dari fitur baru sudah diselesaikan dan sudah di testing, maka branch feature akan dimerge ke dalam branch master/main.
+3. Merging
+   Git memungkinkan pengguna yang telah selesai mendevelop code dan sudah melakukan testing pada branch baru untuk menggabungkan perubahan yang telah dibuat 
+   ke branch utama.
+4. Staging area
+   Git memiliki staging area, di mana pengguna dapat memilih perubahan mana yang akan di-commit ke repository.
+5. Git Rebase
+   Git rebase digunakan untuk menggabungkan atau menggeser commit base. Untuk lebih jelas mengenai Git Rebase dapat dilihat pada ilustrasi berikut:
+6. Hooks
+   Git memiliki hooks, yaitu script yang dijalankan secara otomatis saat terjadi peristiwa tertentu di dalam Git, seperti commit atau push.
+7. GUI tools
+   Git menyediakan GUI tools, seperti GitKraken dan Sourcetree, untuk memudahkan penggunaan Git bagi pengguna yang kurang terbiasa dengan command line
+
+Keunggulan dan kelemahan Git
+Kelebihan
+1. Dapat mengelola versi kode sumber dengan mudah dan efisien.
+2. Dapat melakukan branching dan merging dengan mudah dan aman.
+3. Dapat melacak perubahan dan siapa yang membuat perubahan pada source code.
+4. Memiliki performa yang cepat dan stabil dalam pengelolaan kode sumber yang besar.
+Kelemahan
+1. Memiliki fitur yang kompleks dan terkadang membingungkan bagi pengguna yang kurang berpengalaman.
+2. Memerlukan pemahaman yang baik tentang konsep dasar seperti repository, commit, branching, dan merging.
+3. Sulit digunakan untuk pengelolaan file biner atau non-teks, seperti gambar atau video.
+
+Instalasi Git
+1. Buka halaman download Git di https://git-scm.com/downloads
+2. Pilih versi Git yang sesuai untuk sistem operasi Anda (Windows, Mac, atau Linux)
+3. Klik link download untuk mulai mengunduh instalator Git.
+4. Setelah unduhan selesai, buka file instalator dan ikuti instruksi yang muncul pada layar.
+5. Selama proses instalasi, Anda dapat memilih komponen yang ingin diinstal dan direktori tempat Git akan diinstal.
+6. Setelah instalasi selesai, Anda dapat memverifikasi instalasi Git dengan membuka terminal (command prompt di Windows) dan 
+   mengetikkan perintah git --version. Jika Git terinstal dengan benar, versi Git yang terpasang akan ditampilkan.
+
